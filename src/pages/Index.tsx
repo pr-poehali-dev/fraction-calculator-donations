@@ -5,6 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Icon from '@/components/ui/icon';
 import { toast } from 'sonner';
 import { VisitorCounter } from '@/components/VisitorCounter';
+import { AdBanner } from '@/components/AdBanner';
 
 interface Fraction {
   numerator: number;
@@ -123,6 +124,10 @@ const Index = () => {
             Калькулятор Pro
           </h1>
           <p className="text-gray-400 text-lg">Вычисления дробей и чисел с историей</p>
+        </div>
+
+        <div className="mb-6">
+          <AdBanner />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
