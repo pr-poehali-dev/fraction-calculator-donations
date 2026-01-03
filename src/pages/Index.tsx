@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Icon from '@/components/ui/icon';
 import { toast } from 'sonner';
+import { VisitorCounter } from '@/components/VisitorCounter';
 
 interface Fraction {
   numerator: number;
@@ -374,6 +375,7 @@ const Index = () => {
           background: linear-gradient(to bottom, #7C4FE5, #C835DE);
         }
       `}</style>
+      <VisitorCounter />
     </div>
   );
 };
